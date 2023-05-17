@@ -2,14 +2,13 @@ package Iniciante;
 
 import java.util.Scanner;
 
-public class BEE1014 {
+public class BEE1016 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
 
-        int x = entrada.nextInt();
-        double y = entrada.nextDouble();
+        int a = entrada.nextInt();
 
-        System.out.printf("%.3f km/l\n", x / y);
+        System.out.println((60 * a) / 30 + " minutos");
 
         entrada.close();
     }
