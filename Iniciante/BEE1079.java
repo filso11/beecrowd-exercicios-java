@@ -8,15 +8,11 @@ public class BEE1079 {
 
         int casos = sc.nextInt();
 
-        double[] valores = new double[casos * 3];
+        double[] valores = new double[casos];
 
-        for (int i = 0; i < valores.length; i++) {
-            String valor = sc.nextLine();
-            String[] valoreseee = valor.split(" ");
-            for (int j = 0; j < valoreseee.length; j++) {
-                System.out.println(valoreseee[j]);
-            }
-
+        for (int i = 0; i < casos; i++) {
+            valores[i] = sc.nextDouble();
+            System.out.println(valores[i]);
         }
 
         sc.close();
