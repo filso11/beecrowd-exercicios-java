@@ -8,11 +8,15 @@ public class BEE1079 {
 
         int casos = sc.nextInt();
 
-        double[] valores = new double[casos];
-
         for (int i = 0; i < casos; i++) {
-            valores[i] = sc.nextDouble();
-            System.out.println(valores[i]);
+            double valor1 = sc.nextDouble();
+            double valor2 = sc.nextDouble();
+            double valor3 = sc.nextDouble();
+
+            double mediaPonderada = (valor1 * 2 + valor2 * 3 + valor3 * 5) / 10;
+
+            System.out.printf("%.1f%n", mediaPonderada);
+        
         }
 
         sc.close();
